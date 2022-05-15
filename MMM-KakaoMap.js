@@ -41,7 +41,7 @@ Module.register("MMM-KakaoMap", {
 				level: 3
 			};
 
-		var map = new kakao.maps(mapContainer, mapOption);
+		var map = new kakao.maps.Map(mapContainer, mapOption);
 	  return wrapper;
 	},
 });
