@@ -1,0 +1,23 @@
+{
+  "name": "mmm-kakaomap",
+  "version": "1.0.0",
+  "description": "map",
+  "main": "MMM-KakaoMap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danbi7184/MMM-KakaoMap.git"
+  },
+  "keywords": [
+    "Magic",
+    "Mirror"
+  ],
+  "author": "scheduler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danbi7184/MMM-KakaoMap/issues"
+  },
+  "homepage": "https://github.com/danbi7184/MMM-KakaoMap#readme"
+}
