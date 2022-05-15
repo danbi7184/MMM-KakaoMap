@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/danbi7184/MMM-KakaoMap/issues"
   },
-  "homepage": "https://github.com/danbi7184/MMM-KakaoMap#readme"
+  "homepage": "https://github.com/danbi7184/MMM-KakaoMap#readme",
+  "dependencies": {
+    "node-helper": "^0.1.1"
+  }
 }
