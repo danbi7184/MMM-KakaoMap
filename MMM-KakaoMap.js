@@ -30,7 +30,7 @@ Module.register("MMM-KakaoMap", {
 		busTable.id = "map";
 		wrapper.style.width = "100%";
 		wrapper.style.height = "350px";
-		var src = this.config.src + "?appkey=" + key;
+		var src = this.config.src + "?appkey=" + this.config.key;
 
 		var script = document.createElement('script');
 		script.type = "text/javascript";
