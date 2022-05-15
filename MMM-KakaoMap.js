@@ -28,7 +28,7 @@ Module.register("MMM-KakaoMap", {
 		return wrapper;
 	  }
 	  	wrapper.id = "map";
-		wrapper.style.width = "100%";
+		wrapper.style.width = "350px";
 		wrapper.style.height = "350px";
 		var src = this.config.src + "?appkey=" + this.config.key;
 
