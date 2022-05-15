@@ -1,7 +1,7 @@
 Module.register("MMM-KakaoMap", {
 	requiresVersion: "2.12.0",
 	default: {
-		src: "//dapi.kakao.com/v2/maps/sdk.js",
+		src: "https://dapi.kakao.com/v2/maps/sdk.js",
 		key: "",
 		x: "",
 		y: "",
@@ -30,11 +30,11 @@ Module.register("MMM-KakaoMap", {
 	  	wrapper.id = "map";
 		wrapper.style.width = "350px";
 		wrapper.style.height = "350px";
-		var src = this.config.src + "?appkey=" + this.config.key;
+		var srcKey = this.config.src + "?appkey=" + this.config.key;
 
 		var script = document.createElement('script');
 		script.type = "text/javascript";
-		script.src = src;
+		script.src = srcKey;
 		var mapContainer = document.getElementById("map"),
 			mapOption = {
 				center: new kakao.maps.Lating(this.config.x, this.config.y),
